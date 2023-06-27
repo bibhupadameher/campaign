@@ -1,0 +1,10 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "assignment",
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.7.2",
+    "@truffle/hdwallet-provider": "^2.0.13",
+    "truffle-plugin-verify": "^0.5.27"
+  }
+}
