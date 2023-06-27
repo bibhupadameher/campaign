@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "9f09537e-b010-404b-aae6-2aa8459af371",
+		"name": "campaign",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "11241400"
+	},
+	"item": [
+		{
+			"name": "health",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/health",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"health"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "initialise database once",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/database-init",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"database-init"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "initialise leaderboard",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/board/init",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"board",
+						"init"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get board",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/board/score",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"board",
+						"score"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "board update",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/board/update",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"board",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "mint nft",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/board/mint-nft",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"board",
+						"mint-nft"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get NFT balance by userId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/board/nft/:userId",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"board",
+						"nft",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
