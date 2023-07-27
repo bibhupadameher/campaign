@@ -22,7 +22,7 @@ API endpoints are implemented to allow users to view the NFTs they have been awa
 ## Code
 [ contract](contract/readme.md) This folder contains all the smart contract for above use-case.
 
-[campaign-svc](campaign-svc/README.md) This folder contains the microservice which interacts with this deployed smart contract.
+[campaign-svc](campaign-svc/README.md) This folder contains the micro-service which interacts with this deployed smart contract.
 
 ## Deployment
  contract : https://mumbai.polygonscan.com/address/0xff90e32Fc8C5693D9b30365daF03c14575242FD4#code
